@@ -6,6 +6,7 @@ npm install e53e04ac/ipp5-terraformer
 
 ~~~~~ mjs
 import { Ipp5Terraformer } from 'e53e04ac/ipp5-terraformer';
+import { Ipp5Terraformer } from 'e53e04ac/ipp5-terraformer';
 ~~~~~
 
 ~~~~~ mermaid
@@ -27,52 +28,62 @@ graph RL;
   A ----> B_3;
   A ----> B_4;
   A ----> B_5;
-  click B_0 "https://github.com/e53e04ac/azure-terraformer/tree/8d9ed1349321411331432f746aada8a2c4874046";
-  click B_1 "https://github.com/e53e04ac/base/tree/2dc903faf7859d755dd52f7fde706be5170b9a6f";
-  click B_2 "https://github.com/e53e04ac/event-emitter/tree/0c338d821268a5f0aaa42481216fd2e73c8734c9";
-  click B_3 "https://github.com/e53e04ac/hold/tree/285d028e225a7e75747417c3ed6b1ca0d5f52f6a";
-  click B_4 "https://github.com/e53e04ac/ipp5-configuration/tree/ffcf50c4f21af8ae25a7df8bb91b37d38e2f7f4e";
+  click B_0 "https://github.com/e53e04ac/azure-terraformer/tree/4ec6e0e9ac76a0a385028e6e334c9ca882f12e67";
+  click B_1 "https://github.com/e53e04ac/base/tree/679c11d468754731443595177472a78be2bb8fad";
+  click B_2 "https://github.com/e53e04ac/event-emitter/tree/684f3b21090807e48917ae6591611f4eb2b1e661";
+  click B_3 "https://github.com/e53e04ac/hold/tree/67e5b60f9bb3221f8b200107c13e89a604a93631";
+  click B_4 "https://github.com/e53e04ac/ipp5-configuration/tree/79a88f266b2b29a6189ca1b0814ca9f84d5cde7f";
   click B_5 "https://www.npmjs.org/package/@types/node/v/18.13.0";
 ~~~~~
 
 ~~~~~ mermaid
 graph RL;
-  A(["index.mjs"])
+  subgraph "e53e04ac/ipp5-terraformer";
+    E_0(["Ipp5Terraformer"]);
+  end;
+  M(["index.mjs"])
   subgraph "azure-terraformer";
-    B_0_0(["AzureTerraformer"]);
+    I_0_0(["AzureTerraformer"]);
   end;
   subgraph "event-emitter";
-    B_1_0(["EventEmitter"]);
+    I_1_0(["EventEmitter"]);
   end;
   subgraph "hold";
-    B_2_0(["hold"]);
-    B_2_1(["unwrap"]);
+    I_2_0(["hold"]);
+    I_2_1(["unwrap"]);
   end;
-  A ----> B_0_0;
-  A ----> B_1_0;
-  A ----> B_2_0;
-  A ----> B_2_1;
+  M ----> I_0_0;
+  M ----> I_1_0;
+  M ----> I_2_0;
+  M ----> I_2_1;
+  E_0 ----> M;
 ~~~~~
 
 ~~~~~ mermaid
 graph RL;
-  A(["index.d.ts"])
+  subgraph "e53e04ac/ipp5-terraformer";
+    E_0(["Ipp5Terraformer"]);
+    E_1(["Ipp5Terraformer"]);
+  end;
+  M(["index.d.ts"])
   subgraph "azure-terraformer";
-    B_0_0(["AzureTerraformer"]);
+    I_0_0(["AzureTerraformer"]);
   end;
   subgraph "event-emitter";
-    B_1_0(["EventEmitter"]);
+    I_1_0(["EventEmitter"]);
   end;
   subgraph "hold";
-    B_2_0(["Get"]);
-    B_2_1(["ValueOrGet"]);
+    I_2_0(["Get"]);
+    I_2_1(["ValueOrGet"]);
   end;
   subgraph "ipp5-configuration";
-    B_3_0(["Ipp5Configuration"]);
+    I_3_0(["Ipp5Configuration"]);
   end;
-  A ----> B_0_0;
-  A ----> B_1_0;
-  A ----> B_2_0;
-  A ----> B_2_1;
-  A ----> B_3_0;
+  M ----> I_0_0;
+  M ----> I_1_0;
+  M ----> I_2_0;
+  M ----> I_2_1;
+  M ----> I_3_0;
+  E_0 ----> M;
+  E_1 ----> M;
 ~~~~~

@@ -27,11 +27,11 @@ graph RL;
   A ----> B_3;
   A ----> B_4;
   A ----> B_5;
-  click B_0 "https://github.com/e53e04ac/azure-terraformer/tree/6d41a84e13ad35faf0181fde73f137e96ffb21ae";
-  click B_1 "https://github.com/e53e04ac/base/tree/9b8c78be45949cb5921608b89e923828da6d41f3";
-  click B_2 "https://github.com/e53e04ac/event-emitter/tree/b3a7678f84ede6ae2111a8802360b326a57d3ef2";
+  click B_0 "https://github.com/e53e04ac/azure-terraformer/tree/14ffe4874a7df34767461a1e83418df00cd9bb40";
+  click B_1 "https://github.com/e53e04ac/base/tree/f060ddbd934ff5c9bfe1294358a91fb01051345a";
+  click B_2 "https://github.com/e53e04ac/event-emitter/tree/93b9f205a7be92bb920d2d4f13efa78be7b4ba5d";
   click B_3 "https://github.com/e53e04ac/hold/tree/b0b5ef032800af76c6e7ae27472dbf25a04a947d";
-  click B_4 "https://github.com/e53e04ac/ipp5-configuration/tree/e206315a4f5ca3f3af7c366a33f5c4a504c17c8d";
+  click B_4 "https://github.com/e53e04ac/ipp5-configuration/tree/7b91908da076a0a0cd6db65d73a85b79f75ffe9b";
   click B_5 "https://www.npmjs.org/package/@types/node/v/18.13.0";
 ~~~~~
 
@@ -61,8 +61,9 @@ graph RL;
 ~~~~~ mermaid
 graph RL;
   subgraph "e53e04ac/ipp5-terraformer";
-    E_0(["type Ipp5Terraformer"]);
-    E_1(["const Ipp5Terraformer"]);
+    E_0(["namespace Ipp5Terraformer"]);
+    E_1(["type Ipp5Terraformer"]);
+    E_2(["const Ipp5Terraformer"]);
   end;
   M(["index.d.ts"])
   subgraph "azure-terraformer";
@@ -85,4 +86,5 @@ graph RL;
   M ----> I_3_0;
   E_0 ----> M;
   E_1 ----> M;
+  E_2 ----> M;
 ~~~~~

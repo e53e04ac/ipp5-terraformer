@@ -6,7 +6,6 @@ npm install e53e04ac/ipp5-terraformer
 
 ~~~~~ mjs
 import { Ipp5Terraformer } from 'e53e04ac/ipp5-terraformer';
-import { Ipp5Terraformer } from 'e53e04ac/ipp5-terraformer';
 ~~~~~
 
 ~~~~~ mermaid
@@ -28,11 +27,11 @@ graph RL;
   A ----> B_3;
   A ----> B_4;
   A ----> B_5;
-  click B_0 "https://github.com/e53e04ac/azure-terraformer/tree/4ec6e0e9ac76a0a385028e6e334c9ca882f12e67";
-  click B_1 "https://github.com/e53e04ac/base/tree/679c11d468754731443595177472a78be2bb8fad";
-  click B_2 "https://github.com/e53e04ac/event-emitter/tree/684f3b21090807e48917ae6591611f4eb2b1e661";
-  click B_3 "https://github.com/e53e04ac/hold/tree/67e5b60f9bb3221f8b200107c13e89a604a93631";
-  click B_4 "https://github.com/e53e04ac/ipp5-configuration/tree/79a88f266b2b29a6189ca1b0814ca9f84d5cde7f";
+  click B_0 "https://github.com/e53e04ac/azure-terraformer/tree/0894700dac012d6f5e31df50b30ae74e7089478a";
+  click B_1 "https://github.com/e53e04ac/base/tree/ec922e97d594333727b64f0f4754321480a59c3c";
+  click B_2 "https://github.com/e53e04ac/event-emitter/tree/58fd3772aa6977c80111d1af5425c38551c0da3e";
+  click B_3 "https://github.com/e53e04ac/hold/tree/5dd6f94b8ecd94f98219a7afae52320676380c27";
+  click B_4 "https://github.com/e53e04ac/ipp5-configuration/tree/76ea94f4248eb721a26aec0643053d40cd0ee65e";
   click B_5 "https://www.npmjs.org/package/@types/node/v/18.13.0";
 ~~~~~
 
@@ -62,8 +61,8 @@ graph RL;
 ~~~~~ mermaid
 graph RL;
   subgraph "e53e04ac/ipp5-terraformer";
-    E_0(["Ipp5Terraformer"]);
-    E_1(["Ipp5Terraformer"]);
+    E_0(["type Ipp5Terraformer"]);
+    E_1(["const Ipp5Terraformer"]);
   end;
   M(["index.d.ts"])
   subgraph "azure-terraformer";

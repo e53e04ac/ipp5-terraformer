@@ -12,11 +12,11 @@ import { Ipp5Configuration } from 'ipp5-configuration';
 
 export declare namespace Ipp5Terraformer {
 
-    type EventSpecs = Record<never, never>;
-
     type Options = {
         readonly configuration: ValueOrGet<Ipp5Configuration>;
     };
+
+    type EventSpecs = Record<never, never>;
 
     type _Self = {
         readonly options: Get<Options>;

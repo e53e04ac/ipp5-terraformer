@@ -27,12 +27,12 @@ graph RL;
   A ----> B_3;
   A ----> B_4;
   A ----> B_5;
-  click B_0 "https://github.com/e53e04ac/azure-terraformer/tree/b21d53af2b7ee20701a3735ceaf76e025d5a1212";
-  click B_1 "https://github.com/e53e04ac/base/tree/421cea548a7a50b26a6ada01d1d17b9a013b847c";
-  click B_2 "https://github.com/e53e04ac/event-emitter/tree/19614365368936f6974a633d25a1109a3465a99d";
-  click B_3 "https://github.com/e53e04ac/hold/tree/3191dd4704f3e5f90d6c27f288ede7700f5fdb66";
-  click B_4 "https://github.com/e53e04ac/ipp5-configuration/tree/cf5b28bf18a4addd1d72883fcd0c544e97e8bf57";
-  click B_5 "https://www.npmjs.com/package/@types/node/v/18.14.0";
+  click B_0 "https://github.com/e53e04ac/azure-terraformer/tree/b085c7c1e74b2b18fc3e4a4077dc1b24800d395a";
+  click B_1 "https://github.com/e53e04ac/base/tree/fc0fe75d4737062206ea1b99def2b1b2df6b99fa";
+  click B_2 "https://github.com/e53e04ac/event-emitter/tree/faf256d4d2350ffa0af1fed794236faa4f0740a1";
+  click B_3 "https://github.com/e53e04ac/hold/tree/443c2e801bbe20409c761994a91fa88fb6044602";
+  click B_4 "https://github.com/e53e04ac/ipp5-configuration/tree/30fcc2801d4369299b61a9e6e8a1ae69c2924333";
+  click B_5 "https://www.npmjs.com/package/@types/node/v/18.14.1";
 ~~~~~
 
 ~~~~~ mermaid

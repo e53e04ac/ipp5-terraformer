@@ -26,7 +26,7 @@ graph RL;
     C_1(["e53e04ac/base\n1d4c074238c197e136cc1d4956685d90b7118af6"]);
     C_2(["e53e04ac/event-emitter\n1c42c278687d626fd9dbc9da241e899e482bac0d"]);
     C_3(["e53e04ac/hold\nccd6d335b2be61f30045be782b2129d08a53ac67"]);
-    C_4(["e53e04ac/ipp5-configuration\n6476ddddfa19e5c07f0736190f1582c8c598cc76"]);
+    C_4(["e53e04ac/ipp5-configuration\n68b56c6164e26168be6f97ae84b391d2aecef41c"]);
   end;
   subgraph "npmjs";
     C_5(["@types/node\n18.14.1"]);
@@ -47,7 +47,7 @@ graph RL;
   click C_1 "https://github.com/e53e04ac/base/tree/1d4c074238c197e136cc1d4956685d90b7118af6";
   click C_2 "https://github.com/e53e04ac/event-emitter/tree/1c42c278687d626fd9dbc9da241e899e482bac0d";
   click C_3 "https://github.com/e53e04ac/hold/tree/ccd6d335b2be61f30045be782b2129d08a53ac67";
-  click C_4 "https://github.com/e53e04ac/ipp5-configuration/tree/6476ddddfa19e5c07f0736190f1582c8c598cc76";
+  click C_4 "https://github.com/e53e04ac/ipp5-configuration/tree/68b56c6164e26168be6f97ae84b391d2aecef41c";
   click C_5 "https://www.npmjs.com/package/@types/node/v/18.14.1";
 ~~~~~
 
